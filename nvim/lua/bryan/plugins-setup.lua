@@ -19,6 +19,8 @@ return require('packer').startup(function(use)
   use 'bluz71/vim-nightfly-guicolors' -- preferred colorscheme
   use 'christoomey/vim-tmux-navigator' -- tmux & split window navigation
   use 'szw/vim-maximizer' -- maximizes and restores current window
+--  use 'nathom/filetype.nvim'
+  use 'hashivim/vim-terraform'
 
   -- essential plugins
   use 'tpope/vim-surround' 
